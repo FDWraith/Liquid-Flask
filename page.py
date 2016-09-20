@@ -10,7 +10,7 @@ def home():
 def classroom():
     return "Class page"
 
-@app.rout("/Internet")
+@app.route("/Internet")
 def interweb():
     return "Internet of Things"
 
